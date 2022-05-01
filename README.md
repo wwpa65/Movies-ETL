@@ -20,6 +20,8 @@
 
 ![d1-Ratings](/Resources/Deliverable1/d1-ratings_df.png)
 
+Link to Jupyter Notebook: [ETL_function_test](/https://www.quickdatabasediagrams.com)
+
 
 ### Deliverable 2
 

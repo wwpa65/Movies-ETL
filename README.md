@@ -75,6 +75,9 @@ Link to Jupyter Notebook: [ETL_Clean Kaggle Data](https://github.com/wwpa65/Movi
 
 Link to Jupyter Notebook: [ETL_Create Database](https://github.com/wwpa65/Movies-ETL/blob/51d9b45a7ed8d6d5cda1e266268cb4c9ae5e8bff/ETL_create_database.ipynb)
 
+![Uploading Ratings Data](/Resources/push_ratings.png)
+**Uploading of Ratings data to SQL database**
+
 ![Movies Query](/Resources/movies_query.png)
 **SQL Query for movie counts**
 

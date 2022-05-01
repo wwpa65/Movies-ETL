@@ -15,6 +15,7 @@ A Python function as created to perform the following tasks.
 - Movies data (from data frame) and ratings from CSV file were pushed into PostgreSQL   
 
 ## Results:
+Link to Jupyter Notbooks and appropriate screenshots of Jupyter Notebook and PostgreSQL are included below under appropriate delivrable.
 
 ### Deliverable 1
 
@@ -22,39 +23,63 @@ Link to Jupyter Notebook: [ETL_function_test](https://github.com/wwpa65/Movies-E
 
 ![d1-Wiki Movies](/Resources/Deliverable1/d1-wiki_movies_df.png)
 
+**Wiki_Moview dataframe after extraction**
+
+
+
 ![d1-Kaggle Metadata](/Resources/Deliverable1/d1-kaggle_metadata_df.png)
+
+**Kaggle Metadata dataframe after extraction**
 
 ![d1-Ratings](/Resources/Deliverable1/d1-ratings_df.png)
 
 
-### Deliverable 2
+### Deliverable 2: Wiki Movies
 
 Link to Jupyter Notebook: [ETL_Clean Wiki-Movies](https://github.com/wwpa65/Movies-ETL/blob/51d9b45a7ed8d6d5cda1e266268cb4c9ae5e8bff/ETL_clean_wiki_movies.ipynb)
 
 ![d2-Try-Except](/Resources/Deliverable2/d2-try-except.png)
 
-![d2-Wiki Movies-Check](/Resources/Deliverable2/d2-wiki_movies_df.png)
+**Try-Except statement in the code inside functionafter transformation**
+
+
+
+![d2-Wiki Movies Columns](/Resources/Deliverable2/d2-wiki_movies_df.png)
+
+**Cleaned Wiki Movie columns after transformation**
+
 
 ![d2-Wiki MoviesColumns](/Resources/Deliverable2/d2-wiki_movies_df-columns.png)
+
+**Cleaned Kaggle dataframe after transformation**
 
 
 ### Deliverable 3
 
 Link to Jupyter Notebook: [ETL_Clean Kaggle Data](https://github.com/wwpa65/Movies-ETL/blob/51d9b45a7ed8d6d5cda1e266268cb4c9ae5e8bff/ETL_clean_kaggle_data.ipynb)
 
-![d3-Wiki Movies](/Resources/Deliverable3/d3-wiki_movies_df.png)
+![d3-Wiki Movies-Checking](/Resources/Deliverable3/d3-wiki_movies_df.png)
+**Cleaned Wiki Movie dataframe after transformation (for checking)**
+
+
+![d3-Movies](/Resources/Deliverable3/d3-movies_df.png)
+
+**Cleaned Movies dataframe after transformation of Kaggle data**
 
 ![d3-Movies-Ratings](/Resources/Deliverable3/d3-movies_with_ratings_df.png)
 
-![d3-Movies](/Resources/Deliverable3/d3-movies_df.png)
+**Movies with rating dataframe after transformation of Kaggle data and merging with ratings**
+
 
 ### Deliverable 4
 
 Link to Jupyter Notebook: [ETL_Create Database](https://github.com/wwpa65/Movies-ETL/blob/51d9b45a7ed8d6d5cda1e266268cb4c9ae5e8bff/ETL_create_database.ipynb)
 
 ![Movies Query](/Resources/movies_query.png)
+**SQL Query for movie counts**
 
 ![Ratings Query](/Resources/ratings_query.png)
+**SQL Query for rating counts**
 
 ## Summary:
 
